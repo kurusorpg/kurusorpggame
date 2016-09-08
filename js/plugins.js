@@ -43,6 +43,7 @@ var $plugins =
 {"name":"TinyGetInfoWnd","status":true,"description":"マップ上でアイテムの入手/消失を小さなウィンドウで表示します。","parameters":{"Event Command Switch":"22","Y position type":"1","textGainItem":"%1ゲット！","textLoseItem":"%1をうしなった...。","SE filename":"coin","SE volume":"90","SE pitch":"100"}},
 {"name":"RetryBattle","status":true,"description":"戦闘リトライプラグイン","parameters":{"雑魚敵でリトライ可能":"ON","ボス敵でリトライ可能":"ON","コマンドリトライ":"リトライ（バトルをやり直す）","コマンドロード":"ファイルをロードする","コマンドタイトル":"タイトルへ　戻る","ウィンドウY座標":"448","メニュー画面を表示":"OFF","メッセージ":"\\i[1]\\c[2]バトルに　負けてしまった…\\c[0]\\i[1]","メッセージY座標":"360","フォントサイズ":"32"}},
 {"name":"UR65_SmartPhoneUI","status":true,"description":"スマホ用UI  ver 1.0.0\nUIのサイズをスマートフォン向けに最適化します。","parameters":{"タイトル":"0","メニュー":"0","アイテム":"0","スキル":"0","装備":"0","オプション":"0","ゲーム終了":"0","戦闘":"0","ショップ":"1","イベント関係":"0","アイコン位置修正":"0"}},
+<<<<<<< HEAD
 {"name":"DP_MapZoom","status":true,"description":"マップの拡大率を制御します。v0.452(20160410)","parameters":{"Base Scale":"1","Encount Effect":"true","Camera Controll":"true","Use Hack":"true"}},
 <<<<<<< HEAD
 {"name":"CustomizeConfigDefault","status":true,"description":"オプションデフォルト値設定プラグイン","parameters":{"常時ダッシュ":"ON","コマンド記憶":"ON","BGM音量":"100","BGS音量":"100","ME音量":"100","SE音量":"100","常時ダッシュ消去":"OFF","コマンド記憶消去":"OFF","BGM音量消去":"OFF","BGS音量消去":"OFF","ME音量消去":"OFF","SE音量消去":"OFF"}},
@@ -50,6 +51,9 @@ var $plugins =
 {"name":"Torigoya_QuickSkill","status":true,"description":"選択するとターンを消費せずに即発動するスキルを追加します。","parameters":{}},
 {"name":"CustomizeConfigDefault","status":true,"description":"オプションデフォルト値設定プラグイン","parameters":{"常時ダッシュ":"OFF","コマンド記憶":"ON","BGM音量":"100","BGS音量":"100","ME音量":"100","SE音量":"100","常時ダッシュ消去":"OFF","コマンド記憶消去":"OFF","BGM音量消去":"OFF","BGS音量消去":"OFF","ME音量消去":"OFF","SE音量消去":"OFF"}},
 {"name":"TDDP_PreloadManager","status":true,"description":"マップ/シーン切り替え時、またブート時に素材の事前ロードを行います。","parameters":{"Preload System SFX":"true","Print Debug to Console":"false"}},
+>>>>>>> refs/remotes/origin/master
+=======
+{"name":"DP_MapZoom","status":false,"description":"マップの拡大率を制御します。v0.452(20160410)","parameters":{"Base Scale":"1","Encount Effect":"true","Camera Controll":"true","Use Hack":"true"}},
 >>>>>>> refs/remotes/origin/master
 {"name":"TMMapHpGauge","status":true,"description":"マップシーンに顔グラフィックとＨＰゲージを表示します。\n必要に応じてＭＰや変数などをゲージで表示することもできます。","parameters":{"gaugeWindowX":"0","gaugeWindowY":"0","gaugeWindowWidth":"288","gaugeWindowHeight":"64","gaugeAType":"HP","gaugeAX":"12","gaugeAY":"12","gaugeAWidth":"144","gaugeAHeight":"36","gaugeAFontSize":"28","gaugeAParam":"0","gaugeAMax":"0","gaugeAName":"AP","gaugeAColor":"#ff60c0 #ffa0e0","gaugeBType":"","gaugeBX":"12","gaugeBY":"12","gaugeBWidth":"144","gaugeBHeight":"36","gaugeBFontSize":"28","gaugeBParam":"0","gaugeBMax":"0","gaugeBName":"BP","gaugeBColor":"#ff60c0 #ffa0e0","gaugeCType":"","gaugeCX":"12","gaugeCY":"12","gaugeCWidth":"144","gaugeCHeight":"36","gaugeCFontSize":"28","gaugeCParam":"0","gaugeCMax":"0","gaugeCName":"CP","gaugeCColor":"#ff60c0 #ffa0e0","faceOffsetX":"-4","faceOffsetY":"-4","stateIconMax":"4","stateIconX":"156","stateIconY":"24","shakeTime":"20","startVisible":"1","collideOpacity":"128","messageBusyHide":"1","eventBusyHide":"1"}}
 ];
